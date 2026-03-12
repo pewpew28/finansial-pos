@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build:finpos",
+  "outputDirectory": "dist/finpos",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
